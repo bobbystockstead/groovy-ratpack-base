@@ -8,6 +8,9 @@ ratpack {
         get {
             render 'Hello, World!'
         }
+        get (":name") {
+            render "Hello, $pathTokens.name!"
+        }
     }
 }
 
