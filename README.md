@@ -11,3 +11,4 @@ Starter application that is a Hello World of a groovy, ratpack app.
  - Gradle
  - Shadow
  - Logging
+ - Docker
